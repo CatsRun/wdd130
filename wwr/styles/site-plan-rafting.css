@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Rubik:ital@0;1&display=swap');
+:root {
+    --primary-color: #2072AF;
+    --secondary-color: #E0D255;
+    --accent-color1: #2F3740;
+    --accent-color2: #ebf5ff;
+
+    --heading-font: 'Lato', sans-serif;
+    --paragraph-font: 'Rubik', sans-serif;
+
+    --nav-background-color: var(--accent-color2);
+    --nav-link-color: var(--accent-color1);
+    --nav-hover-background-color: var(--primary-color);
+
+}
+body {
+    font-family: var(--paragraph-font), Arial, sans-serif;
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font), Verdana, Tahoma, sans-serif;
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent-color2);
+}
+
+p {
+    padding: 25px;  
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color:var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
