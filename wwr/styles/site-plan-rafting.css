@@ -2,14 +2,15 @@
 :root {
     --primary-color: #2072AF;
     --secondary-color: #E0D255;
-    --accent-color1: #2F3740;
-    --accent-color2: #ebf5ff;
+    --accent1-color: #2F3740;
+    --accent2-color: #ebf5ff;
 
     --heading-font: 'Lato', sans-serif;
     --paragraph-font: 'Rubik', sans-serif;
 
-    --nav-background-color: var(--accent-color2);
-    --nav-link-color: var(--accent-color1);
+    --nav-background-color: var(--accent2-color);
+    --nav-link-color: var(--accent1-color);
+    --nav-hover-link-color: var(var(--accent1-color));
     --nav-hover-background-color: var(--primary-color);
 
 }
@@ -25,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 header {
     padding: 20px;
-    background-color: var(--accent-color2);
+    background-color: var(--accent2-color);
 }
 
 p {
