@@ -13,7 +13,7 @@
     --nav-hover-link-color: var(--accent1-color);
     --nav-hover-background-color: var(--primary-color);
 
-}
+}   /*This is how to add a comment in CSS*/
 body {
     font-family: var(--paragraph-font), Arial, sans-serif;
     max-width: 960px;
