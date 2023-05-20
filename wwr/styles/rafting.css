@@ -18,6 +18,7 @@
 
 body {
     max-width: 1050px; /*limits the width of the entire page*/
+    font-family: var(--paragraph-font);
 }
 
 .hero {
@@ -53,20 +54,50 @@ body {
 }
 
 header {
+    font-family: var(--heading-font);
+    font-size: large;
     display: grid;
-    /* grid-column: 2; */
     align-items: center;
+    justify-items: center;
+
 }
 
 header img {
     grid-column: 1/2;
+    
+    
 }
 
 header nav {
     grid-column: 2/2;
-    
+    display: flex;
+    width:300px;
+    /* margin: 10px; */
+    background-color: #dfdfdf;
+    /* min-height: 30px; */
 }
 
-footer a {
+header nav a {
+    display: flex;
+    border: 1px solid #333;
+    /* min-height: 30px; */
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+    /* flex: 1 1 100%; */
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+footer nav {
     text-decoration: none;
+    justify-items: right;
+}
+
+section img {
+    display: flex;
+    justify-items: center;
 }
