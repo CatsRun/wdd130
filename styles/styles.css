@@ -27,8 +27,8 @@ nav a {
 
 h1 {
     color: rgb(49, 93, 129);
-    border-bottom: black;
-    padding-bottom: 20px; /*why is this not showing? step 6*/
+    border-bottom: steelblue;
+    border-bottom-style: solid;    
 }
 
 main img {
