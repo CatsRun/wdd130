@@ -52,6 +52,21 @@ body {
     width: 200px;
 }
 
+header {
+    display: grid;
+    /* grid-column: 2; */
+    align-items: center;
+}
+
+header img {
+    grid-column: 1/2;
+}
+
+header nav {
+    grid-column: 2/2;
+    
+}
+
 footer a {
     text-decoration: none;
 }
