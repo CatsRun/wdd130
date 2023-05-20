@@ -51,3 +51,7 @@ body {
     float: right;
     width: 200px;
 }
+
+footer a {
+    text-decoration: none;
+}
