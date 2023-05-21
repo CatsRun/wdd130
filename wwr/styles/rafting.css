@@ -17,7 +17,7 @@
 /*remove underlines from social media links. How???*/
 
 body {
-    /* max-width: 1050px; limits the width of the entire page */
+    max-width: 1050px; /*limits the width of the entire page*/
     font-family: var(--paragraph-font);
 }
 
@@ -72,6 +72,7 @@ header nav {
     width:300px;
     /* margin: 10px; */
     background-color: #dfdfdf;
+    
 }
 
 header nav a {
@@ -114,11 +115,15 @@ section img {
     width: 300px;
 }
 
-/* section .photos figcaption{
-    width: 10px;
-    color: red;
+.photos {
     display: flex;
-} */
+    max-width: 1050px;
+    flex-wrap: wrap;
+}
+
+.photos img{
+    width: 300px;
+}
 
 figure {
     font-family: var(--paragraph-font);
