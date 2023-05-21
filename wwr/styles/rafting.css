@@ -19,7 +19,7 @@
 body {
     max-width: 1050px; /*limits the width of the entire page*/
     font-family: var(--paragraph-font);
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .hero {
@@ -56,7 +56,7 @@ body {
 
 header {
     font-family: var(--heading-font);
-    font-size: 25px;
+    font-size: 20px;
     display: grid;
     align-items: center;
     justify-items: center;
