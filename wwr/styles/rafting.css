@@ -17,7 +17,7 @@
 /*remove underlines from social media links. How???*/
 
 body {
-    max-width: 1050px; /*limits the width of the entire page*/
+    width: 1050px; /*limits the width of the entire page*/
     font-family: var(--paragraph-font);
     font-size: 20px;
 }
@@ -43,7 +43,7 @@ body {
 .hero article {
     position: absolute;
     top: 300px;
-    left: 200px;
+    /* left: 200px; this shortens it*/
     background-color: rgba(225, 225, 225, 0.7);
     padding: 10px;
     margin: 10px;
@@ -57,9 +57,10 @@ body {
 header {
     font-family: var(--heading-font);
     font-size: 20px;
-    display: grid;
+    display: grid; /*(grid "row 1 / span 1"?)*/
     align-items: center;
     justify-items: center;
+    /*position: sticky;*/ /*causes the header to sty on the top of the sccreen. */
 }
 
 header img {
