@@ -1,3 +1,108 @@
-/* header {
-    position: sticky;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    text-align: center; 
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(49, 93, 129);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    position: relative;
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0, .2);
+    padding: 1rem;
+}
+
+fieldset legend {
+    padding: .5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label {
+    text-align: right;
+    padding: 1rem;
+}
+
+/* input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
 } */
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+.question {
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.q3, .q4 {
+        display: grid;
+        align-items: center;    
+}
+
+.q2, .q1 {
+    display: grid;
+ 
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkcyan;
+}
+
+footer{
+    margin: 1rem auto 0;
+    width: 800px;
+    text-align: center;
+    font-size: .8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
