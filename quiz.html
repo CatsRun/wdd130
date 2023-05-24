@@ -9,7 +9,49 @@
     <meta name="author" content="Angela Murray">
     <link rel="stylesheet" href="styles/quiz.css">
 </head>
+
 <body>
-    
+    <header>            
+        <nav>
+            <a href="#">Home</a>
+            <a href="wwr/">White Water Rafting</a> 
+            <a href="wwr/site-plan-rafting.html">wwr Siteplan</a> 
+            <a href="https://linkedin.com">Linkedin</a>
+            <a href="https://facebook.com">Facebook</a>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Questions</legend>
+
+                <label for="q1">What does the acronym HTML stand for?</label>
+                <input type="text" id="q1" name="q1">
+
+                <label for="q2">Why was CSS not used early in its life?</label>
+                <textarea name="q2" id="q2" cols="20" rows="10"></textarea>
+
+                <label for="q3">Which of the following not used with align-content?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose one ...</option>
+                    <option value="center">center</option>
+                    <option value="end">end</option>
+                    <option value="flex-start">flex-start</option>
+                    <option value="base">base</option>
+                </select>
+
+                <label for="q4">Using best practices, what is the smallest font size thta should be used?</label>
+                <!-- add textbox here? -->
+                <input type="number" name="q4">
+
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy;2023 | Angela Murray | VA, USA</p>
+    </footer>
 </body>
+
 </html>
