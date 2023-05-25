@@ -16,6 +16,7 @@
 
 /*remove underlines from social media links. How???*/
 
+
 body {
     width: 1050px; /*limits the width of the entire page*/
     font-family: var(--paragraph-font);
@@ -73,8 +74,6 @@ header nav {
     width:350px;
     /* margin: 20px; */
     background-color: #dfdfdf;
-    text-decoration: none;
-    
 }
 
 header nav a {
@@ -91,9 +90,13 @@ footer {
     justify-content:space-between;
 }
 footer nav {
-    text-decoration: none;
     justify-items: right;
     grid-column: 3;
+
+}
+
+a {
+    text-decoration: none;
 }
 
 footer p {
