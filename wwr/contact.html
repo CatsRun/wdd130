@@ -20,80 +20,89 @@
         </nav>
     </header>
     <main>
-        <h1>Rafting Momentum</h1>
-        <section info>
-            <div address>
+        <h1>Contact Us</h1>
+        
+        <section class="info2" >
+            <form>
+                <fieldset>
+                    <legend>How can we help?</legend> 
+                    <div class="form-item">
+                        <label for="username">User Name:</label>
+                        <input type="text" id="username" name="username">
+                    </div>
+                    <div class="form-item">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+
+                    <!-- <div class="form-item column1">
+                        <label for="reason">Reason for message:</label>
+                            <select id="reason" name="reason">
+                                <option value="" selected disabled>Choose one ...</option>
+                                <option value="center">center</option>
+                                <option value="end">end</option>
+                                <option value="flex-start">flex-start</option>
+                                <option value="base">base</option>
+                            </select>
+                    </div>
+                -->
+                    <div class="choices">
+                        <p>What is the purpose of your message?</p>
+                        <input type="radio" id="general" name="msgtype" value="General Question">
+                        <label for="general">General Question</label>
+                        <input type="radio" id="reservation" name="msgtype" value="Reservation Question">
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" id="website" name="msgtype" value="Wesite Suggestion">
+                        <label for="website">Wesite Question</label>
+                    </div>
+                
+                    <div class="message1">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+                        
+                    </div>
+                    <div class="newsletter">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        <!-- </section> -->
+        <!-- <section class="info1"> -->
+            
+            <div class="info1">
+                <h2>Company info</h2>    
+            <!-- <div class="address"> -->
                 <p>Address: 123 ABC Lane</p>
                 <p>Neverland, Star 98765</p>
-            </div>
-            <div contactnumber>
-                <p>(222)333-4444 Phone</p>
-                <p>(222)333-5555 Fax</p>
-            </div>
-            <div email>
+            <!-- </div> -->
+            <!-- <div contactnumber> -->
+                <p>Phone: (222)333-4444</p>
+                <p>Fax: (222)333-5555</p>
+            <!-- </div> -->
+            <!-- <div email> -->
                 <p>Email: RaftingMonument@happyrafting.com</p>
-            </div>
-            <div>
+            <!-- </div> -->
+            <!-- <div> -->
                 <p> add map here...</p>
-            </div>
+            <!-- </div> -->
+            </div>    
         </section>
         <div class="employee">
+            <h2>Employees</h2>
             <figure>
-                <img src="" alt="people1">
+                <img src="images/owner.jfif" alt="people1">
                 <figcaption>Owner: John Doe</figcaption>
             </figure>
             <figure>
-                <img src="" alt="people2">
-                <figcaption>Instructor: Mark Twaine</figcaption>
+                <img src="images/instructor.jfif" alt="people2">
+                <figcaption>Instructor: Mark Mills</figcaption>
             </figure>
             <figure>
-                <img src="" alt="people3">
-                <figcaption>Medic: Mark Mills</figcaption>
+                <img src="images/medic.jfif" alt="people3">
+                <figcaption>Medic:Jill Hill</figcaption>
             </figure>
         </div>
-        <form>
-            <fieldset>
-                <legend>How can we help?</legend> 
-                <div class="form-item column2">
-                    <label for="username">User Name:</label>
-                    <input type="text" id="username" name="username">
-                </div>
-                <div class="form-item column2">
-                    <label for="useremail">Email:</label>
-                    <input type="email" id="useremail" name="useremail">
-                </div>
-
-                <div class="question">
-                    <label for="q3">Reason for message:</label>
-                        <select id="reason" name="reason">
-                            <option value="" selected disabled>Choose one ...</option>
-                            <option value="center">center</option>
-                            <option value="end">end</option>
-                            <option value="flex-start">flex-start</option>
-                            <option value="base">base</option>
-                        </select>
-                </div>
-            
-                <div choices>
-                    <p>What is the purpose of your message?</p>
-                    <input type="radio" id="general" name="msgtype" value="General Question">
-                    <label for="general">General Question</label>
-                    <input type="radio" id="reservation" name="msgtype" value="Reservation Question">
-                    <label for="reservation">Reservation Question</label>
-                    <input type="radio" id="website" name="msgtype" value="Wesite Suggestion">
-                    <label for="website">Wesite Question</label>
-                </div>
-            
-
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here..."></textarea>
-                
-                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                <input type="checkbox" id="subscribe" name="subscribe">
-
-                <button type="submit">Submit</button>
-            </fieldset>
-        </form>
-        
     </main>
 
     <footer>

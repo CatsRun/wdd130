@@ -14,8 +14,6 @@
     --nav-hover-background-color: var(--primary-color);
 }
 
-/*remove underlines from social media links. How???*/
-
 
 body {
     width: 1050px; /*limits the width of the entire page*/
@@ -88,15 +86,18 @@ footer {
     display: grid;
     align-items: center;
     justify-content:space-between;
+    color: #333;
 }
 footer nav {
     justify-items: right;
     grid-column: 3;
-
+    
 }
 
 a {
     text-decoration: none;
+    color: #333;
+
 }
 
 footer p {
@@ -140,4 +141,82 @@ figure {
 
 section h2 {
     text-align: center;
+}
+
+/*contact us*/
+
+button {
+    margin: 1rem;
+    background-color: var(--primary-color); /*change color*/
+    color: #fff;
+    border: none;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--secondary-color); /*change color*/
+}
+
+form {
+    display: grid;
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background-color: #eee;
+    font-family: var(--heading-font);
+}
+
+.form-item {
+    display: grid;
+}
+
+.message1 {
+    grid-template-columns: 1fr 2fr;
+}
+.choices {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem 0;
+    padding: 1rem;
+}
+
+.form-item {
+    grid-template-columns: 1fr 2fr;
+    margin: .5rem 0;
+}
+
+.employee { 
+     grid-template-columns: 3fr 1fr; 
+     display: flex; 
+     justify-self: right;
+     margin: .5rem;
+     padding: 1rem;
+}
+
+.message1 {
+    grid-template-columns: 1fr;
+}
+
+.message1 textarea{
+    border: #2F3740 solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.info2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.info1 {
+    /* display: grid; */
+    /* grid-template-columns: 3fr 2fr; */
+    margin: 10px;
+    padding: 10px;
+    /* border: #2F3740 solid; */
+    border: 1px solid rgb(0, 0, 0, .3);
 }
