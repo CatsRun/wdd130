@@ -87,6 +87,8 @@ footer {
     align-items: center;
     justify-content:space-between;
     color: #333;
+    padding-top: 1rem;
+
 }
 footer nav {
     justify-items: right;
@@ -219,4 +221,15 @@ form {
     padding: 10px;
     /* border: #2F3740 solid; */
     border: 1px solid rgb(0, 0, 0, .3);
+}
+
+.j {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center; /*moved the buttons and text to the center*/
+    
+}
+
+.j p {
+    font-family: var(--paragraph-font);
 }

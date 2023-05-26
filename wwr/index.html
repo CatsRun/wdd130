@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting Momentum Home</title>
+    <meta name="description" content="Rafting Momentum Home page">
+    <meta name="author" content="Angela Murray">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting site logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="images/index-hero.webp" alt="Raft on a river">
+            <h1>Rafting Momentum</h1>
+        </div>  
+        <div class="j">
+            <div class="lazy">
+                <img src="images/canyon.jpg" alt="canyon river">
+                <p>Come enjoy a peacefull day of sight seeing down a peaceful river.</p>
+                <button onclick="window.location.href='trips.html';">Book Now!</button> <!--This makes a buttong that direct like a link-->
+            </div>
+            <div class="rapids">
+                <img src="images/white-waves.jpg" alt="group rafting">
+                <p>Are you ready for a wild ride down rapids on an amaising river?</p>
+                <button onclick="window.location.href='trips.html';">Book Now!</button> <!--This makes a buttong that direct like a link-->
+            </div>    
+        </div>
+
+
+
+        <form>
+            <fieldset>
+                <legend>Get our newsletter</legend> 
+                <div class="form-item">
+                    <label for="username">User Name:</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="form-item">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+                <div class="newsletter">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit">Submit Form</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;2023 | Rafting Momentum | Angela Murray |<a href="images/wireframe-index.png">Wireframe</a></p>
+        <nav>
+        <a href="https://www.facebook.com" target="_blank"><img src="images/facebook-logo.png" alt="Facebook logo" ></a>
+        <a href="https://twitter.com" target="_blank"><img src="images/twitter-logo.png" alt="Twitter logo"></a>
+        <a href="http://instagram.com" target="_blank"><img src="images/instagram-logo.png" alt="Instagram logo"></a>
+        </nav>
+    </footer>
+</body>
+</html>
