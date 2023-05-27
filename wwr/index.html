@@ -11,7 +11,8 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Rafting site logo">
+        <!-- <img src="images/logo.png" alt="Rafting site logo"> -->
+        <img onclick="window.location.href='index.html';" src="images/logo.png" alt="Rafting site logo"> <!-- onclick sends the user to the index or home page. -->
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -26,18 +27,22 @@
         </div>  
         <div class="book">
             <div class="lazy">
-                <img src="images/canyon.jpg" alt="canyon river">
-                <figcaption>Come enjoy a peacefull day of sight seeing down a peaceful river.</figcaption>
+                <figure>
+                    <img src="images/canyon.jpg" alt="canyon river">
+                    <figcaption>Come enjoy a peacefull day of sight seeing down a peaceful river.</figcaption>
+                </figure>    
                 <button onclick="window.location.href='trips.html';">Book Now!</button> <!--This makes a buttong that direct like a link-->
+                    
             </div>
             <div class="rapids">
-                <img src="images/white-waves.jpg" alt="group rafting">
-                <figcaption>Are you ready for a wild ride down rapids on an amaising river?</figcaption>
+                <figure>
+                    <img src="images/white-waves.jpg" alt="group rafting">
+                    <figcaption>Are you ready for a wild ride down rapids on an amaising river?</figcaption>
+                </figure>     
                 <button onclick="window.location.href='trips.html';">Book Now!</button> <!--This makes a buttong that direct like a link-->
+                   
             </div>    
         </div>
-
-
 
         <form>
             <fieldset>
