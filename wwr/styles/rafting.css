@@ -79,7 +79,6 @@ header nav a {
     border: 1px solid #333;
     flex-grow: 1;
     justify-content: space-around;
-    /* flex: 1 1 100%; */
 }
 
 footer {
@@ -223,13 +222,69 @@ form {
     border: 1px solid rgb(0, 0, 0, .3);
 }
 
-.j {
+.book {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center; /*moved the buttons and text to the center*/
     
 }
 
-.j p {
+.book p {
     font-family: var(--paragraph-font);
+}
+
+/* .trip-table {
+    tab-size: 1fr 1fr 2fr;
+} */
+
+table, td {
+    border: 1px solid #333;
+}
+
+thead, tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+td, th {
+    padding: .5rem;
+}
+
+caption {
+    font-weight: 700;
+    font-size: smaller;
+    color: navy;
+    font-variant: small-caps;
+}
+
+.title {
+    font-family: var(--heading-font);
+    background-color: #cfdadc;
+}
+
+.trips {
+    width: 1050px;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.trips img {
+    width: 350px;
+    padding: .2rem;
+    margin: auto 0;
+}
+
+.trips figcaption{
+    text-align: center;
+}
+.contact-button{
+    display: grid;
+    text-align: center;
+    font-family: var(--heading-font);
+    margin: auto 0;
+    padding-top: 20px;
+}
+
+.trip-table, .contact-button{
+    display: grid;
 }
